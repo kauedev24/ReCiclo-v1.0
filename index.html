@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReCiclo App</title>
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="/assets/styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img src="" alt="Logo Reciclo">
+            <h1>ReCiclo</h1>
+        </a>
+    </header>
+
+    <section class="banner-main">
+
+        <div class="row">
+            
+            <div id="carouselBannerMain" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselBannerMain" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselBannerMain" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                
+                <div class="carousel-inner">
+                    <!-- Primeiro Slide -->
+                    <div class="carousel-item active">
+                        <div class="header-banner">
+                            <h1>Materias sem uso?</h1>
+                            <span class="text-secundary">Conecte o que você tem a quem pode aproveitar</span>
+                        </div>
+
+                        <div class="img-banner">
+                            <img src="/assets/img/img-banner-1.png" class="d-block w-100" alt="Potes lado a lado">
+                        </div>
+                        
+                        <div class="footer-banner">
+                            <h3 class="color-primary">Um novo destino começa aqui</h3>
+                            <p>Potes, caixas, tecidos e sobras de projetos podem continuar circulando.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Segundo Slide -->
+                    <div class="carousel-item">
+
+                        <div class="header-banner">
+                            <h1>Encontre o que falta</h1>
+                            <span class="text-secundary">Materias gratuitos para dar vida a novos projetos.</span>
+                        </div>
+
+                        <div class="img-banner">
+                            <img src="/assets/img/img-banner-2.png" class="d-block w-100" alt="Imagem padrão de reciclagem">
+                        </div>
+                        
+                        <div class="footer-banner">
+                            <h3 class="color-primary">Reaproveite antes de comprar</h3>
+                            <p>Explore potes, papelão, retalhos, madeira e outros materias próximos.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Botão Anterior -->
+                <button class="carousel-control-prev color-primary" type="button" data-bs-target="#carouselBannerMain" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <!-- Botão Inferior -->
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselBannerMain" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <div class="btn-actions">
+        <a href="/assets/pages/available-material.html">
+            <button type="button">Encontrar materiais</button>
+        </a>
+
+        <a href="/assets/pages/advertise.html">
+            <button type="button">Disponibilizar material</button>
+        </a>
+    </div>
+
+    <!-- Menu Inferior -->
+    <nav class="bottom-nav">
+        <ul>
+            <!-- Início -->
+            <li>
+                <a href="#">
+                    <img src="" alt="Ícone Home">
+                    <p>Início</p>
+                </a>
+            </li>
+
+            <!-- Explorar -->
+            <li>
+                <a href="/assets/pages/available-material.html">
+                    <img src="" alt="Ícone Pesquisar">
+                    <p>Explorar</p>
+                </a>
+            </li>
+
+            <!-- Anunciar -->
+            <li>
+                <a href="/assets/pages/advertise.html">
+                    <img src="" alt="Ícone +">
+                    <p>Anunciar</p>
+                </a>
+            </li>
+            
+            <!-- Salvos -->
+            <li>
+                <a href="">
+                    <img src="" alt="Ícone Coração">
+                    <p>Salvos</p>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReCiclo App</title>
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="/assets/styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="../../index.html">
+            <img src="" alt="Logo Reciclo">
+            <h1>ReCiclo</h1>
+        </a>
+    </header>
+
+    <section>
+        <h1>Disponibilzar material</h1>
+        <span class="text-secundary">Etapa 1 de 3 • Dados do anúncio</span>
+
+        <form class="form">
+            <div>
+                <label for="catergoria">Categoria</label>
+                <select name="categoria" id="categoria" required>
+                    <option value="" selected disabled>Selecione...</option>
+                    <option value="1">Opção 1</option>
+                    <option value="2">Opção 2</option>
+                    <option value="3">Opção 3</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="titulo">Título</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label for="descricao">Descrição</label>
+                <textarea name="descricao" id="descricao"></textarea>
+            </div>
+
+            <div>
+                <label for="quatidade">Quantidade</label>
+                <input type="number" name="quantidade" id="quantidade" placeholder="unidades">
+            </div>
+
+            <div>
+                <label for="local">Bairro para retirada</label>
+                <input type="text" name="local" id="local">
+            </div>
+
+            <button disabled="disabled">Continuar</button>
+        </form>
+    </section>
+
+    <!-- Menu Inferior -->
+    <nav class="bottom-nav">
+        <ul>
+            <!-- Início -->
+            <li>
+                <a href="../../index.html">
+                    <img src="" alt="Ícone Home">
+                    <p>Início</p>
+                </a>
+            </li>
+
+            <!-- Explorar -->
+            <li>
+                <a href="available-material.html">
+                    <img src="" alt="Ícone Pesquisar">
+                    <p>Explorar</p>
+                </a>
+            </li>
+
+            <!-- Anunciar -->
+            <li>
+                <a href="#">
+                    <img src="" alt="Ícone +">
+                    <p>Anunciar</p>
+                </a>
+            </li>
+
+            <!-- Salvos -->
+            <li>
+                <a href="">
+                    <img src="" alt="Ícone Coração">
+                    <p>Salvos</p>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
