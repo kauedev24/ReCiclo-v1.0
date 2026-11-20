@@ -6,8 +6,6 @@ Em vez de descartar materiais que ainda têm utilidade, a ideia é facilitar sua
 
 O projeto foi desenvolvido no contexto da **Global Solution FIAP 2026**, com foco inicial na construção da interface e na experiência de navegação.
 
-**[🌐 Acessar demonstração](https://kauedev24.github.io/ReCiclo-v1.0/)** · **[📂 Ver repositório](https://github.com/kauedev24/ReCiclo-v1.0)**
-
 
 ## 📱 Telas implementadas
 
